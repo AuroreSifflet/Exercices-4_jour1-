@@ -5,13 +5,15 @@ export default function App() {
   return (
     <View style={{ flex: 1 }}>
       <View style={{ flex: 1, flexDirection: "row" }}>
-        <View style={{ flex: 3, flexDirection: "column" }}>
+        <View style={{ flex: 1, flexDirection: "column" }}>
           <View style={{ flex: 3, backgroundColor: "purple" }} />
           <View style={{ flex: 1, backgroundColor: "yellow" }} />
           <View style={{ flex: 1, backgroundColor: "pink" }} />
         </View>
-        <View style={{ flex: 2, backgroundColor: "red" }} />
-        <View style={{ flex: 1, backgroundColor: "blue" }} />
+        <View style={{ flex: 1, flexDirection: "row" }}>
+          <View style={{ flex: 3, backgroundColor: "red" }} />
+          <View style={{ flex: 1, backgroundColor: "blue" }} />
+        </View>
       </View>
       <View style={{ flex: 1, flexDirection: "column" }}>
         <View style={{ flex: 3, backgroundColor: "gray" }} />
